@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 31rem;
+  margin: 2.5rem auto 1rem;
+}
+
+.container .title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.container .title h1 {
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.container .title .underline {
+  height: 0.5rem;
+  width: 9rem;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  margin: 0.4rem auto 0;
+}
+
+.container .review {
+  text-align: center;
+  border: 3px solid #eee;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 10px #bbb;
+          box-shadow: 1px 1px 10px #bbb;
+  padding: 2rem;
+}
+
+.container .review img {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.container .review .author {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.container .review .role {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  color: lightseagreen;
+  text-transform: uppercase;
+}
+
+.container .review .desc {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.container .review .arrowcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 10rem;
+  margin: 1.5rem auto 0;
+}
+
+.container .review button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.6rem;
+}
+
+.container .review .left, .container .review .right {
+  color: lightseagreen;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.container .review .left:hover, .container .review .left:focus, .container .review .right:hover, .container .review .right:focus {
+  border: 1px solid lightseagreen;
+  outline: 1px solid lightseagreen;
+  margin: -1px;
+}
+
+.container .review .random {
+  display: inline-block;
+  background-color: lightseagreen;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container .review .random:focus, .container .review .random:hover {
+  background-color: darkcyan;
+}
+/*# sourceMappingURL=style.css.map */
